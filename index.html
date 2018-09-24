@@ -47,18 +47,8 @@
         <!DOCTYPE html>
         <html>
         	<head>
-        	  <title>{{ page.title }}</title>
         		<!-- link to main stylesheet -->
         		<link rel="stylesheet" type="text/css" href="side.css">
-        		<script>
-        		  $(function(){
-        		    var includes = $('[data-include]');
-        		    jQuery.each(includes, function(){
-        		      var file = 'views/' + $(this).data('include') + '.html';
-        		      $(this).load(file);
-        		    });
-        		  });
-        		</script>
         	</head>
         	<body>
 
@@ -67,7 +57,7 @@
                 		<li><a href="index.html">Home</a></li>
         	        	<li><a href="about/index.html">About</a></li>
         			<li><a href="rzfeng.pdf" target = "blank">Résumé</a></li>
-        			<!-- <li><a href="projects/index.html">Projects</a></li> -->
+        			<li><a href="https://github.com/rzfeng">Projects</a></li>
 
             		</ul>
         		</nav>
