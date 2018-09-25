@@ -55,22 +55,10 @@
     <div id="main">
       <div class="inner">
         <!DOCTYPE html>
-        <html>
-        	<head>
-        	  <title>{{ page.title }}</title>
-        		<!-- link to main stylesheet -->
-        		<link rel="stylesheet" type="text/css" href="side.css">
-        		<script>
-        		  $(function(){
-        		    var includes = $('[data-include]');
-        		    jQuery.each(includes, function(){
-        		      var file = 'views/' + $(this).data('include') + '.html';
-        		      $(this).load(file);
-        		    });
-        		  });
-        		</script>
-        	</head>
+
+
         	<body>
+            <link rel="stylesheet" type="text/css" href="side.css">
 
         		<nav>
             		<ul>
@@ -83,7 +71,7 @@
         		</nav>
 
         	</body>
-        </html>
+
         <!-- <div id="image01" class="image"><a href="https://www.linkedin.com/in/rzfeng/"><img src="profile.jpg" alt="Rich" /></a></div> -->
         <h1 id="text02">Richard Feng</h1>
         <h1 id="text01">Software Engineer, Data Analyst, Undergraduate Researcher</h1>
