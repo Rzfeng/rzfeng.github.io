@@ -3,6 +3,16 @@
 
 <head>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126475076-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126475076-1');
+  </script>
+
 
   <title>{ Richard Feng }</title>
   <meta charset="utf-8">
@@ -47,74 +57,48 @@
         <!DOCTYPE html>
         <html>
         	<head>
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126475076-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-126475076-1');
-</script>
-
-
+        	  <title>{{ page.title }}</title>
         		<!-- link to main stylesheet -->
         		<link rel="stylesheet" type="text/css" href="side.css">
+        		<script>
+        		  $(function(){
+        		    var includes = $('[data-include]');
+        		    jQuery.each(includes, function(){
+        		      var file = 'views/' + $(this).data('include') + '.html';
+        		      $(this).load(file);
+        		    });
+        		  });
+        		</script>
         	</head>
         	<body>
 
         		<nav>
             		<ul>
-                		<li><a href="index.html">Home</a></li>
-        	        	<li><a href="about/index.html">About</a></li>
-        			<li><a href="rzfeng.pdf" target = "blank">Résumé</a></li>
-        			<li><a href="https://github.com/rzfeng" target = "blank">Projects</a></li>
+                		<li><a href="../index">Home</a></li>
+        	        	<li><a href="about">About</a></li>
+        			<li><a href="../rzfeng.pdf" target = "blank">Résumé</a></li>
+              <li><a href="https://github.com/rzfeng" target = "blank">Projects</a></li>
 
             		</ul>
         		</nav>
-        		<div class="container">
-        		</div><!-- /.container -->
+
         	</body>
         </html>
-        <div id="image01" class="image"><a href="https://www.linkedin.com/in/rzfeng/" target = "blank"><img src="profile.jpg" alt="Rich" /></a></div>
+        <!-- <div id="image01" class="image"><a href="https://www.linkedin.com/in/rzfeng/"><img src="profile.jpg" alt="Rich" /></a></div> -->
         <h1 id="text02">Richard Feng</h1>
+        <h1 id="text01">Software Engineer, Data Analyst, Undergraduate Researcher</h1>
+        <h2 id = "text02"> <strong>About Me</strong> </h2>
         <p id="text01">
           <span>
-        University of Wisconsin, Madison
+            I'm currently a student in my final year at the Univeristy of Wisconsin, Madison. I'm also working remotely as a Data Analyst for Quad/Graphics, as well as an Undergraduate Researcher for the Scalable Systems Lab under Prof. Victor Zavala.
+            <br><br>
+            I have a wide variety of interests and am always curious to learn more about anything someone is passionate about. I'm a quick learner and pick up things fast, so I'm always ready and excited to tackle new challenges.
+            <br><br>
+            I try to be as active as possible since I'm usually sitting in a desk coding or learning new technologies. I enjoy spending time with my girlfriend, friends, and family. When I'm not coding, I love to play table tennis, badminton, piano, and go out and explore nature.
 
-          <br>
-
-            Majors: Computer Science & Statistics | Minor: Mathematics
-
-                        <br><br>
-                        <!-- Interested in <strong>Data Engineering</strong>, <strong>Back-End Engineering</strong>, and <strong>Data Science</strong>. -->
-                        Interested in Data Engineering, Back-End Engineering, and Data Science.
         </span>
-        <br />
-        <br/>
-        <b>
-          Live Personal Projects:
-          <br>
-        </b>
-        <span><a href="https://richardfeng.shinyapps.io/StockForecaster/" target = "blank">Stock Forecaster</a></span><br/>
-        <span><a href="http://www.EpsilonCoding.com" target = "blank">Stock Rank</a></span><br/>
-        <span><a href="https://chrome.google.com/webstore/detail/epsilon-supreme-bot/habajankbjgomdejppacloddeokkolal/" target = "blank">Epsilon AutoCheckout Chrome Extension</a></span><br/>
+      </p>
 
-        <hr id="divider01">
-        <ul id="icons01" class="icons">
-
-          <li><a class="n02" href="tel:2623666718"><svg><use xlink:href="#icon-904"></use></svg><span class="label">Phone</span></a></li>
-          <li><a class="n03" href="mailto:richard.z.feng@gmail.com">
-          <svg><use xlink:href="#icon-90a"></use></svg>
-          <span class="label">Email</span></a></li>
-          <li>
-            <a class="n04" href="https://github.com/rzfeng">
-            <svg><use xlink:href="#icon-907"></use></svg><span class="label">GitHub</span></a>
-          </li>
-          <li><a class="n05" href="https://www.linkedin.com/in/rzfeng/">
-              <svg><use xlink:href="#icon-90b"></use></svg>
-              <span class="label">Linkedin</span></a></li>
-        </ul>
       </div>
     </div>
 
