@@ -225,7 +225,7 @@
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    background-image: url('bg.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/keenant/nebula.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
