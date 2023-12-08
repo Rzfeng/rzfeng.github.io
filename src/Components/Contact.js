@@ -154,7 +154,7 @@ const Contact = ({ data }) => {
             </form>
             {loading && <p style={{ fontSize: '20px', color: 'white' }}>Loading...</p>}
 {messageSent && <p style={{ fontSize: '20px', color: 'white' }}>Your message was sent, thank you!</p>}
-{errorMessage && <p style={{ fontSize: '20px', color: 'white' }}>{errorMessage}</p>}
+{errorMessage && <p style={{ fontSize: '20px', color: 'red' }}>{errorMessage}</p>}
 
 
           </div>
