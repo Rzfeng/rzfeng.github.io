@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import Typewriter from 'react-typewriter-effect';
 
 class About extends Component {
   render() {
@@ -18,9 +19,26 @@ class About extends Component {
 
     return (
       <section id="about">
+        
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
+            <div>
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter
+              .typeString('This is the first string!')
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString('And now a second string!')
+              .start();
+          }}
+          options={{
+            autoStart: true,
+            loop: true,
+          }}
+        />
+      </div>
               <img
                 className="profile-pic"
                 src={profilepic}

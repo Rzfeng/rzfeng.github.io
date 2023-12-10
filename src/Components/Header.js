@@ -22,6 +22,7 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
     const description2 = this.props.data.description2;
+    const description3 = this.props.data.description3;
     const scrollToPortfolio = (e) => {
       e.preventDefault(); // Prevent default anchor click behavior
       const portfolioSection = document.getElementById('portfolio');
@@ -93,6 +94,9 @@ class Header extends Component {
             <br></br>
             <Fade bottom duration={1200}>
               <h3>{description2}.</h3>
+            </Fade>
+            <Fade bottom duration={1200}>
+              <h3 style={{ fontSize: '20px', fontWeight: 'bold' }}>{description3}.</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>

@@ -2,7 +2,8 @@
   "main": {
     "name":"Ryan D",
     "description":"Experienced Software Engineer specialized in automation, web-scraping, full-stack development, and generative AI integration. AWS Certified Solutions Architect CO2",
-    "description2":"I built this site with React Javascript for frontend, with Lambdas and API Gateway for backend. Hosted on AWS, this site features dynamic animations - refresh the page for a new one ;) ",
+    "description2":"I built this site with React Javascript for frontend, with Lambdas and API Gateway for backend and I hosted it on AWS",
+    "description3": "Refresh the page for a new animation! ;)",
     "image":"profilepic.jpg",
     "bio":"Full-stack web developer specialized in Python Django for backend and React Javascript for frontend. Expert in creating high-performance, scalable automation and web-scraping solutions using Selenium/Playwright, bypassing CAPTCHAs and adept in Docker orchestration. Certified as a AWS Solutions Architect CO2 capable of creating complex cloud-based solutions and enhancing them with generative AI.",
     "contactmessage":"Interested in my work or have a question? Don't hesitate to reach out!",
