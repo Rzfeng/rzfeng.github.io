@@ -22,7 +22,7 @@ class Footer extends Component {
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
-              <ul className="copyright">
+              {/* <ul className="copyright">
                 <li>&copy; Copyright 2023 Ryan D</li>
                 <li>
                   Design by{" "}
@@ -30,7 +30,7 @@ class Footer extends Component {
                     Ryan D
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </Fade>
 

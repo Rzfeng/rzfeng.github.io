@@ -1,14 +1,12 @@
 {
   "main": {
-    "name":"Ryan D",
-    "description":"Experienced Software Engineer specialized in automation, web-scraping, full-stack development, and generative AI integration. AWS Certified Solutions Architect CO2",
-    "description2":"I built this site with React Javascript for frontend, with Lambdas and API Gateway for backend and I hosted it on AWS",
-    "description3": "Refresh the page for a new animation! ;)",
+    "name":"Richard F",
+    "description":"Experienced software engineer specialized in backend API development, web-scraping, full-stack development, and generative AI integration. AWS Certified Solutions Architect CO2",
+    "description2":"Utilized Javascript React for the frontend for this site and AWS Lambdas and API Gateway powering the backend",
     "image":"profilepic.jpg",
-    "bio":"Full-stack web developer specialized in Python Django for backend and React Javascript for frontend. Expert in creating high-performance, scalable automation and web-scraping solutions using Selenium/Playwright, bypassing CAPTCHAs and adept in Docker orchestration. Certified as a AWS Solutions Architect CO2 capable of creating complex cloud-based solutions and enhancing them with generative AI.",
+    "bio":"Full-stack developer specialized in developing end to end applications, with experience building APIs from ground up and integration with front end apps.",
     "contactmessage":"Interested in my work or have a question? Don't hesitate to reach out!",
-    "email": "ryan.dundun3@gmail.com",
-    "phone": "+1 (414) 559-7852",
+    "email": "richard.z.feng@gmail.com",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
@@ -21,13 +19,8 @@
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"instagram",
-        "url":"http://instagram.com/dundun",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/ryandundun",
+        "url":"https://github.com/rzfeng",
         "className":"fa fa-github"
       }
     ]
@@ -38,9 +31,8 @@
     "education":[
       {
         "school":"University of Wisconsin-Madison",
-        "degree":"Majors: Statistics & Economics B.S | Minor: Computer Science",
-        "graduated":"Graduated Summer 2019",
-        "description":"Developed strong critical thinking skills through in-depth data analysis and problem-solving. I excelled in coding, creating innovative solutions for complex challenges, showcasing my ability to merge analytical insight with technical acumen."
+        "degree":"B.S. Computer Science & Statistics B.S | Minor: Mathematics",
+        "description":"Built strong technical foundation, with graduate level courses in AI (Deep Learning & Machine Learning, Pytorch, Scikit Learn)."
       }
     ],
     "work":[
@@ -48,19 +40,19 @@
         "company":"Capital One",
         "title":"Senior Software Engineer",
         "years":"2019 - Present",
-        "description":"Web-scraped data, automated ETL data processes, deployments, and cloud infrastructure. Programmed, monitored, and did DevOps on full-stack web-development software while working with Agile team using Jira on a variety of applications and services in QA and Production environments. Tech Stack includes Github, AWS, ECS, EC2, S3, RDS, Python, Jenkins (for CI/CD), Route 53, Lambda, Load Balancers, SNS, React, Docker containers.."
-      },
-      {
-        "company":"Vyflow",
-        "title":"Co-Founder & CTO",
-        "years":"2019",
-        "description":"Assembled, designed, and maintained software and service architecture for all of Vyflow’s services and applications that include real-time view-only bank access, data rooms, portfolio management, etc. Vyflow is an incubator startup that raised a seed round of investment. Vyflow provides peace of mind to investors by adding an extra layer of due diligence. Tech stack includes Django Python (backend), React (front end), plaid integration (for banking access), AWS Lambda, S3, EC2, RDS, Route 53, Elastic Beanstalk etc."
+        "description":"Built API layers from ground up, worked on front end web apps, did DevOps work in AWS and GCP. Web-scraped data, automated ETL data processes, deployments, and cloud infrastructure."
       },
       {
         "company":"Quad Graphics",
-        "title":"Web Scraper & Data Engineer",
+        "title":"Web Scraper & Data Analyst",
+        "years":"2018-2019",
+        "description":"Forecasted seasonal trends in R, was able to forecast sales revenues with only 1-8% mean absolute percentage error (MAPE). Web scraped data for other analysis as well."
+      },
+      {
+        "company":"Target Corporation",
+        "title":"Software Engineer",
         "years":"2018",
-        "description":"Scraped/mined data programmatically (using python selenium and BeautifulSoup) from various sources to be used in prediction/forecasting of trends in business operations. After data was scraped it was processed and transformed with Python Pandas to be stored in AWS S3. Infrastructure included AWS Lambda and EC2."
+        "description":"Back end development in Scala and Java, working with Kafka, Docker, Kubernetes, and Spark"
       }
     ],
     "ventures": [
@@ -74,20 +66,28 @@
     ],
     "skills":[
       {
-        "name":"Python",
+        "name":"Java, Python",
         "level":"90%"
+      },
+      {
+        "name":"Javascript, Typescript",
+        "level":"80%"
+      },
+      {
+        "name":"Go, Scala, Ruby",
+        "level":"70%"
       },
       {
         "name":"Automation & Web-Scraping",
         "level":"95%"
       },
       {
-        "name":"Databases & SQL",
-        "level":"80%"
+        "name":"Databases (SQL, NoSQL)",
+        "level":"90%"
       },
       {
-        "name":"CI/CD (Jenkins, Git, Terraform, etc)",
-        "level":"65%"
+        "name":"CI/CD (Jenkins, Git, Docker, Terraform, etc)",
+        "level":"70%"
       },
       {
         "name":"AWS (EC2, Lambda, S3, SNS, SQS, Route 53, etc)",
@@ -95,7 +95,7 @@
       },
       {
         "name":"Full Stack Web development",
-        "level":"75%"
+        "level":"70%"
       },
       {
         "name":"AI integration",
@@ -107,33 +107,9 @@
     "projects": [
       {
         "title":"FourKube: Automated Trading Algorithm, ML, AWS",
-        "category":"My Travel Blog for my post-university travels",
+        "category":"Automated AI stock trading",
         "image":"fourkube2.jpg",
         "url":"https://www.fourkube.info"
-      },
-      {
-        "title":"Art Alchemy: Web-Scraping Reddit data, Generative AI",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"art_alchemy.jpg",
-        "url":"https://youtu.be/wCyij0mym7s"
-      },
-      {
-        "title":"RecycleRewards: AWS, Python Django, React, Full Stack",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"recycle_rewards.jpg",
-        "url":"https://www.youtube.com/watch?v=oieDlVNgPHA"
-      },
-      {
-        "title":"'How To' Web-Scrape Youtube Tutorial I made",
-        "category":"A React based resume website template",
-        "image":"webscraping_tutorial.jpg",
-        "url":"https://youtu.be/qeCXIG3kUr8?si=xQ1V4I7Rkhll4H5u"
-      },
-      {
-        "title":"My Previous Personal Website (See Older Projects)",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"older_personal_website.jpg",
-        "url":"https://www.ryandundun.com"
       },
       {
         "title":"My AWS Certification: Solutions Architect CO2",

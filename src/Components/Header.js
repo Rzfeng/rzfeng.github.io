@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
-const PARTICLE_TYPES = ["color", "ball", "lines", "thick", "circle", "cobweb", "polygon", "square", "tadpole", "fountain"];
+// const PARTICLE_TYPES = ["color", "ball", "lines", "thick", "circle", "cobweb", "polygon", "square", "tadpole", "fountain"];
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-        particleType: this.getRandomParticleType()
-    };
+    // this.state = {
+    //     particleType: this.getRandomParticleType()
+    // };
   }
 
-  getRandomParticleType = () => {
-      const randomIndex = Math.floor(Math.random() * PARTICLE_TYPES.length);
-      return PARTICLE_TYPES[randomIndex];
-  }
+  // getRandomParticleType = () => {
+  //     const randomIndex = Math.floor(Math.random() * PARTICLE_TYPES.length);
+  //     return PARTICLE_TYPES[randomIndex];
+  // }
   render() {
     if (!this.props.data) return null;
 
@@ -22,7 +22,7 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
     const description2 = this.props.data.description2;
-    const description3 = this.props.data.description3;
+    // const description3 = this.props.data.description3;
     const scrollToPortfolio = (e) => {
       e.preventDefault(); // Prevent default anchor click behavior
       const portfolioSection = document.getElementById('portfolio');
@@ -30,17 +30,17 @@ class Header extends Component {
           portfolioSection.scrollIntoView({ behavior: 'smooth' });
       }
   };
-  const particleProps = {
-      type: this.state.particleType,
-      bg: true
-  };
-  if (this.state.particleType === "cobweb") {
-    particleProps.color = "#FF0000";
-  }
+  // const particleProps = {
+  //     type: this.state.particleType,
+  //     bg: true
+  // };
+  // if (this.state.particleType === "cobweb") {
+  //   particleProps.color = "#FF0000";
+  // }
 
     return (
       <header id="home">
-        <ParticlesBg {...particleProps} />
+        {/* <ParticlesBg {...particleProps} /> */}
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -95,16 +95,16 @@ class Header extends Component {
             <Fade bottom duration={1200}>
               <h3>{description2}.</h3>
             </Fade>
-            <Fade bottom duration={1200}>
+            {/* <Fade bottom duration={1200}>
               <h3 style={{ fontSize: '20px', fontWeight: 'bold' }}>{description3}.</h3>
-            </Fade>
+            </Fade> */}
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href="#portfolio" className="button btn project-btn" onClick={scrollToPortfolio}>
                   <i className="fa fa-book"></i>My Projects
                 </a>
-                <a href="https://github.com/ryandundun" className="button btn github-btn">
+                <a href="https://github.com/rzfeng" className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>

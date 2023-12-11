@@ -62,7 +62,7 @@ const Contact = ({ data }) => {
   };
   if (!data) return null;
 
-  const { name, address, phone, email, contactmessage } = data;
+  const { name, address, email, contactmessage } = data;
   const { street, city, state, zip } = address;
 
   const handleChange = (e) => {
@@ -165,10 +165,7 @@ const Contact = ({ data }) => {
             <div className="widget widget_contact">
               <h4>Contact</h4>
               <p className="address">
-                {name}
-                <br />
-                <span>{phone}</span>
-                <br />
+                {/* <span>{phone}</span> */}
                 <span>{email}</span>
               </p>
             </div>
@@ -184,7 +181,7 @@ const Contact = ({ data }) => {
                 <h4 className="widget-title">Fun Fact</h4>
                 <li>
                   <span>
-                    This form's backend is powered by an API I developed using AWS Lambda and API Gateway. Additionally, both this website and the FourKube site were independently coded by me using React Javascript and are hosted on AWS S3.
+                    Interested in building out projects, currently working on some blockchain & AI applications. Would love to collaborate on ideas within the crypto sphere!
                   </span>
                 </li>
               </ul>
