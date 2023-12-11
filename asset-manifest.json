@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rzfeng.github.io/static/css/main.bab0b925.chunk.css",
+    "main.js": "/rzfeng.github.io/static/js/main.31398626.chunk.js",
+    "main.js.map": "/rzfeng.github.io/static/js/main.31398626.chunk.js.map",
+    "runtime-main.js": "/rzfeng.github.io/static/js/runtime-main.03d7fd67.js",
+    "runtime-main.js.map": "/rzfeng.github.io/static/js/runtime-main.03d7fd67.js.map",
+    "static/js/2.26f5052f.chunk.js": "/rzfeng.github.io/static/js/2.26f5052f.chunk.js",
+    "static/js/2.26f5052f.chunk.js.map": "/rzfeng.github.io/static/js/2.26f5052f.chunk.js.map",
+    "static/js/3.683da568.chunk.js": "/rzfeng.github.io/static/js/3.683da568.chunk.js",
+    "static/js/3.683da568.chunk.js.map": "/rzfeng.github.io/static/js/3.683da568.chunk.js.map",
+    "index.html": "/rzfeng.github.io/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/rzfeng.github.io/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.26f5052f.chunk.js.LICENSE.txt": "/rzfeng.github.io/static/js/2.26f5052f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03d7fd67.js",
+    "static/js/2.26f5052f.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.31398626.chunk.js"
+  ]
+}
