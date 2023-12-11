@@ -2,7 +2,7 @@
   "main": {
     "name":"Richard F",
     "description":"Experienced software engineer specialized in backend API development, web-scraping, full-stack development, and generative AI integration. AWS Certified Solutions Architect CO2",
-    "description2":"Utilized Javascript React for the frontend for this site and AWS Lambdas and API Gateway powering the backend",
+    "description2":"Utilized Javascript React for the frontend for this site and AWS Lambda and API Gateway powering the backend",
     "image":"profilepic.jpg",
     "bio":"Full-stack developer specialized in developing end to end applications, with experience building APIs from ground up and integration with front end apps.",
     "contactmessage":"Interested in my work or have a question? Don't hesitate to reach out!",
@@ -114,8 +114,8 @@
       {
         "title":"My AWS Certification: Solutions Architect CO2",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"aws_certification.jpg",
-        "url":"https://ryandundun.com/AWS_SAA.pdf"
+        "image":"AWS_SAA.jpg",
+        "url":"AWS_SAA.pdf"
       }
     ]
   }
