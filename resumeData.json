@@ -40,7 +40,7 @@
         "company":"Capital One",
         "title":"Senior Software Engineer",
         "years":"2019 - Present",
-        "description":"Built API layers from ground up, worked on front end web apps, did DevOps work in AWS and GCP. Web-scraped data, automated ETL data processes, deployments, and cloud infrastructure."
+        "description":"Built API layers from ground up, worked on front end web apps, handled DevOps work in AWS and GCP. Web-scraped data, automated ETL data processes, deployments, and cloud infrastructure."
       },
       {
         "company":"Quad Graphics",
@@ -114,8 +114,8 @@
       {
         "title":"My AWS Certification: Solutions Architect CO2",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"aws_certification.jpg",
-        "url":"https://ryandundun.com/AWS_SAA.pdf"
+        "image":"AWS_SAA.jpg",
+        "url":"AWS_SAA.pdf"
       }
     ]
   }
