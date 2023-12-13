@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+const PARTICLE_TYPES = ["cobweb"]
 // const PARTICLE_TYPES = ["color", "ball", "lines", "thick", "circle", "cobweb", "polygon", "square", "tadpole", "fountain"];
 class Header extends Component {
   constructor(props) {
     super(props);
-    // this.state = {
-    //     particleType: this.getRandomParticleType()
-    // };
+    this.state = {
+        particleType: this.getRandomParticleType()
+    };
   }
 
-  // getRandomParticleType = () => {
-  //     const randomIndex = Math.floor(Math.random() * PARTICLE_TYPES.length);
-  //     return PARTICLE_TYPES[randomIndex];
-  // }
+  getRandomParticleType = () => {
+      const randomIndex = Math.floor(Math.random() * PARTICLE_TYPES.length);
+      return PARTICLE_TYPES[randomIndex];
+  }
   render() {
     if (!this.props.data) return null;
 
@@ -30,17 +31,17 @@ class Header extends Component {
           portfolioSection.scrollIntoView({ behavior: 'smooth' });
       }
   };
-  // const particleProps = {
-  //     type: this.state.particleType,
-  //     bg: true
-  // };
-  // if (this.state.particleType === "cobweb") {
-  //   particleProps.color = "#FF0000";
-  // }
+  const particleProps = {
+      type: this.state.particleType,
+      bg: true
+  };
+  if (this.state.particleType === "cobweb") {
+    particleProps.color = "#FF0000";
+  }
 
     return (
       <header id="home">
-        {/* <ParticlesBg {...particleProps} /> */}
+        <ParticlesBg {...particleProps} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
