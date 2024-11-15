@@ -1,0 +1,122 @@
+{
+  "main": {
+    "name":"Richard F",
+    "description":"Experienced software engineer specialized in backend API development, web-scraping, full-stack development, and generative AI integration. AWS Certified Solutions Architect CO2",
+    "description2":"Utilized Javascript React for the frontend for this site and AWS Lambda and API Gateway powering the backend",
+    "image":"profilepic.jpg",
+    "bio":"Full-stack developer specialized in developing end to end applications, with experience building APIs from ground up and integration with front end apps.",
+    "contactmessage":"Interested in my work or have a question? Don't hesitate to reach out!",
+    "email": "richard.z.feng@gmail.com",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/rzfeng",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Git (Github), Python, SQL, Postgres, Django, React, Web-scraping, Selenium automation, BS4, Machine Learning with Scikit-Learn, image classification, CI/CD, Jenkins, Terraform, JavaScript, REST API, Docker, chat GPT/open AI integrations",
+    "skillmessage2": "Lambda, EC2, S3, SNS, SQS, RDS, ECS, Elastic Beanstalk, Load Balancers, SMS, SES, Rekognition, Route 53, Comprehend, API Gateway, CloudWatch, EventBridge, Step Functions, Athena, Glue",
+    "education":[
+      {
+        "school":"University of Wisconsin-Madison",
+        "degree":"B.S. Computer Science & Statistics B.S | Minor: Mathematics",
+        "description":"Built strong technical foundation, with graduate level courses in AI (Deep Learning & Machine Learning, Pytorch, Scikit Learn)."
+      }
+    ],
+    "work":[
+      {
+        "company":"Capital One",
+        "title":"Senior Software Engineer",
+        "years":"2019 - Present",
+        "description":"Built API layers from ground up, worked on front end web apps, did DevOps work in AWS and GCP. Web-scraped data, automated ETL data processes, deployments, and cloud infrastructure."
+      },
+      {
+        "company":"Quad Graphics",
+        "title":"Web Scraper & Data Analyst",
+        "years":"2018-2019",
+        "description":"Forecasted seasonal trends in R, was able to forecast sales revenues with only 1-8% mean absolute percentage error (MAPE). Web scraped data for other analysis as well."
+      },
+      {
+        "company":"Target Corporation",
+        "title":"Software Engineer",
+        "years":"2018",
+        "description":"Back end development in Scala and Java, working with Kafka, Docker, Kubernetes, and Spark"
+      }
+    ],
+    "ventures": [
+      {
+        "company":"FourKube",
+        "title":"Machine Learning & AI Stock Market Algorithm",
+        "years":"2020",
+        "description":"Engineered FourKube’s machine learning algorithms that generates and records predictions based off of web-scraped data from various sources — 100% automated. FourKube’s stock prediction algorithm strives to identify companies to buy for profit. Software is powered by AWS with Lambda APIs utilizing AWS API Gateway and the live website is created in ReactJS. The software lives on today paper trading daily and running on autopilot - live reporting of on-going performance at: https://www.fourkube.info/. At its peak, had 82 monthly paying subscribers utilizing Stripe."
+      }
+
+    ],
+    "skills":[
+      {
+        "name":"Java, Python",
+        "level":"90%"
+      },
+      {
+        "name":"Javascript, Typescript",
+        "level":"80%"
+      },
+      {
+        "name":"Go, Scala, Ruby",
+        "level":"70%"
+      },
+      {
+        "name":"Automation & Web-Scraping",
+        "level":"95%"
+      },
+      {
+        "name":"Databases (SQL, NoSQL)",
+        "level":"90%"
+      },
+      {
+        "name":"CI/CD (Jenkins, Git, Docker, Terraform, etc)",
+        "level":"70%"
+      },
+      {
+        "name":"AWS (EC2, Lambda, S3, SNS, SQS, Route 53, etc)",
+        "level":"85%"
+      },
+      {
+        "name":"Full Stack Web development",
+        "level":"70%"
+      },
+      {
+        "name":"AI integration",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"FourKube: Automated Trading Algorithm, ML, AWS",
+        "category":"Automated AI stock trading",
+        "image":"fourkube2.jpg",
+        "url":"https://www.fourkube.info"
+      },
+      {
+        "title":"My AWS Certification: Solutions Architect CO2",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"AWS_SAA.jpg",
+        "url":"AWS_SAA.pdf"
+      }
+    ]
+  }
+}
